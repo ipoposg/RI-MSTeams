@@ -48,16 +48,6 @@
           "delegators": []
         }
       },
-      "ringtoneSettings": {
-        "assignments": {
-          "ringToneAssignments": [
-            {
-              "type": "Regular",
-              "value": "Spacetime"
-            }
-          ]
-        }
-      },
       "callRedirectionSettings": {
         "callForwardingSettings": {
           "isEnabled": false,

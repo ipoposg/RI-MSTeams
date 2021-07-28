@@ -1,0 +1,379 @@
+{
+  "policySettings": {
+    "value": {
+      "clientPolicy": {},
+      "callingLineIdentityPolicy": {},
+      "teamsMeetingPolicy": {},
+      "teamsInteropPolicy": {
+        "callingDefaultClient": "Default",
+        "chatDefaultClient": "Default"
+      },
+      "dialPlanPolicy": {
+        "normalizationRules": [
+          {
+            "pattern": "^(001|008)(\\d+)$",
+            "translation": "+$2"
+          },
+          {
+            "pattern": "^((\\+)?(\\d+))(;)?(ext|extn|EXT|EXTN|x|X)(=)?(\\d+)$",
+            "translation": "$1;ext=$7"
+          }
+        ],
+        "ituCountryPrefix": "65"
+      },
+      "locationPolicy": {
+        "locationRefreshInterval": 4,
+        "conferenceMode": "",
+        "emergencyNumbers": [
+          {
+            "dialString": "911"
+          }
+        ],
+        "policyDocument": "Default"
+      }
+    }
+  },
+  "voiceAdminSettings": {
+    "value": {
+      "isSipEnabled": true,
+      "isSfbCloud": true,
+      "adminSettings": {
+        "isSipEnabled": true
+      },
+      "delegationSettings": {
+        "userDelegates": {
+          "delegates": []
+        },
+        "userDelegators": {
+          "delegators": []
+        }
+      },
+      "ringtoneSettings": {
+        "assignments": {
+          "ringToneAssignments": [
+            {
+              "type": "Regular",
+              "value": "Spacetime"
+            }
+          ]
+        }
+      },
+      "callRedirectionSettings": {
+        "callForwardingSettings": {
+          "isEnabled": false,
+          "forwardingType": "Simultaneous",
+          "targetType": "Voicemail",
+          "delaySeconds": 0
+        },
+        "unansweredCallSettings": {
+          "isEnabled": true,
+          "targetType": "Voicemail",
+          "delaySeconds": 10
+        },
+        "favoriteTargets": {
+          "targets": []
+        },
+        "callGroupDetails": {
+          "callOrder": "Simultaneous",
+          "targets": []
+        }
+      },
+
+      "callGroupMembershipSettings": {
+        "callGroupMembershipDetails": []
+      }
+    }
+  },
+  "tenantVoiceSettings": {
+    "value": {
+      "voiceTenantType": "Online",
+      "pstnType": "OnPrem"
+    }
+  },
+  "adminSettings": {
+    "value": {
+      "conferencingConfigurationSetting": {
+        "clientAppSharingPort": 50040,
+        "clientAppSharingPortRange": 20,
+        "clientAudioPort": 50000,
+        "clientAudioPortRange": 20,
+        "clientFileTransferPort": 50040,
+        "clientFileTransferPortRange": 20,
+        "clientMediaPort": 50000,
+        "clientMediaPortRange": 60,
+        "clientMediaPortRangeEnabled": true,
+        "clientSipDynamicPort": 7100,
+        "clientSipDynamicPortRange": 3,
+        "clientVideoPort": 50020,
+        "clientVideoPortRange": 20
+      },
+      "mediaConfigurationSetting": {
+        "enableInCallQoS": true
+      }
+    }
+  },
+  "tenantSettingsV2": {
+    "value": {
+      "isMicrosoftTeamsEnabled": true,
+      "apps": {
+        "isAppsEnabled": true,
+        "isSideLoadingInteractionEnabled": true,
+        "lobTextColor": "",
+        "lobBackground": "",
+        "lobLogo": "",
+        "lobLogomark": ""
+      },
+      "email": {
+        "isEmailIntoChannelsEnabled": true,
+        "restrictedSenderList": []
+      },
+      "miscellaneous": {
+        "isOrganizationTabEnabled": true,
+        "isTBotProactiveMessagingEnabled": true
+      },
+      "meetups": {
+        "isVideoEnabled": true,
+        "isScreenSharingEnabled": true,
+        "isChannelMeetingEnabled": true,
+        "isAdhocChannelMeetingEnabled": true,
+        "isPrivateMeetingEnabled": true,
+        "isGroupCallingEnabled": true,
+        "isPrivateCallingEnabled": true
+      },
+      "funControl": {
+        "isStickersEnabled": true,
+        "isCustomMemesEnabled": true
+      },
+      "messaging": {
+        "enableUserEditOwnMessages": true,
+        "enableUserDeleteOwnMessages": true,
+        "enableUserPrivateChat": true
+      },
+      "files": {
+        "isDropboxEnabled": true,
+        "isBoxEnabled": true,
+        "isShareFileEnabled": true,
+        "isGoogleDriveEnabled": true
+      },
+      "licenseCategorySettingsMap": {
+        "educationStudent": {
+          "isMicrosoftTeamsEnabled": true,
+          "meetups": {
+            "isVideoEnabled": true,
+            "isScreenSharingEnabled": true,
+            "isChannelMeetingEnabled": true,
+            "isAdhocChannelMeetingEnabled": true,
+            "isPrivateMeetingEnabled": true,
+            "isGroupCallingEnabled": true,
+            "isPrivateCallingEnabled": true
+          },
+          "funControl": {
+            "isStickersEnabled": true,
+            "isCustomMemesEnabled": true
+          },
+          "messaging": {
+            "enableUserEditOwnMessages": true,
+            "enableUserDeleteOwnMessages": true,
+            "enableUserPrivateChat": true
+          }
+        },
+        "guest": {
+          "meetups": {
+            "isVideoEnabled": true,
+            "isScreenSharingEnabled": true,
+            "isAdhocChannelMeetingEnabled": true,
+            "isGroupCallingEnabled": true,
+            "isPrivateCallingEnabled": true
+          },
+          "funControl": {
+            "isGiphyEnabled": true,
+            "giphyRatingType": "Moderate",
+            "isStickersEnabled": true,
+            "isCustomMemesEnabled": true
+          },
+          "messaging": {
+            "enableUserEditOwnMessages": true,
+            "enableUserDeleteOwnMessages": true,
+            "enableUserPrivateChat": true
+          }
+        }
+      }
+    }
+  },
+  "userResourcesSettings": {
+    "value": {
+      "licenseSettings": {
+        "isSharePointEnabled": true,
+        "isExchangeEnabled": true,
+        "isPowerBIEnabled": true,
+        "isProjectWorkManagementEnabled": true,
+        "isOfficeEnabled": true,
+        "isYammerEnabled": true,
+        "isOneDriveForBusinessEnabled": true
+      },
+      "isSipEnabled": true,
+      "isSfbCloud": true,
+      "licenseType": "Student",
+      "userType": "member"
+    }
+  },
+  "meetingPolicy": {
+    "value": {
+      "appDesktopSharing": "SingleApplication",
+      "allowIPVideo": true,
+      "allowEngagementReport": "Disabled",
+      "allowTrackingInReport": "Enabled",
+      "ipAudioMode": "EnabledOutgoingIncoming",
+      "ipVideoMode": "EnabledOutgoingIncoming",
+      "autoAdmittedUsers": "OrganizerOnly",
+      "allowPowerPointSharing": true,
+      "allowParticipantGiveRequestControl": true,
+      "allowSharedNotes": true,
+      "allowWhiteboard": true,
+      "mediaBitRateKb": 50000,
+      "screenSharingMode": "SingleApplication",
+      "liveCaptionsEnabledType": "DisabledUserOverride",
+      "meetingChatEnableType": "Enabled",
+      "designatedPresenterRoleMode": "EveryoneUserOverride",
+      "videoFiltersMode": "BlurAndDefaultBackgrounds",
+      "preferredMeetingProviderForIslandsMode": "TeamsAndSfb",
+      "recordingStorageMode": "OneDriveForBusiness",
+      "channelRecordingDownload": "Allow",
+      "enrollUserOverride": "Disabled",
+      "roomAttributeUserOverride": "Off",
+      "allowBreakoutRooms": true,
+      "teamsCameraFarEndPTZMode": "Disabled",
+      "allowMeetingReactions": true,
+      "speakerAttributionMode": "EnabledUserOverride",
+      "allowMeetingRegistration": true,
+      "whoCanRegister": "EveryoneInCompany",
+      "allowScreenContentDigitization": "Enabled",
+      "allowMeetingCoach": true,
+      "meetingRecordingExpirationDays": 60,
+      "liveStreamingMode": "Disabled",
+      "roomPeopleNameUserOverride": "Off",
+      "meetingInviteLanguages": "",
+      "allowCarbonSummary": true
+    }
+  },
+  "messagingPolicy": {
+    "value": {
+      "allowOwnerDeleteMessage": true,
+      "allowUserEditMessage": true,
+      "allowUserDeleteMessage": true,
+      "allowUserChat": true,
+      "giphyRatingType": "Strict",
+      "allowGiphyDisplay": true,
+      "allowPasteInternetImage": true,
+      "allowMemes": true,
+      "allowStickers": true,
+      "allowUserTranslation": true,
+      "allowUrlPreviews": true,
+      "readReceiptsEnabledType": "Everyone",
+      "allowImmersiveReader": true,
+      "allowPriorityMessages": true,
+      "audioMessageEnabledType": "ChatsAndChannels",
+      "channelsInChatListEnabledType": "EnabledUserOverride",
+      "allowRemoveUser": true,
+      "allowSmartCompose": true,
+      "allowSmartReply": true,
+      "chatPermissionRole": "Restricted",
+      "allowFluidCollaborate": true
+    }
+  },
+  "callingPolicy": {
+    "value": {
+      "allowPrivateCalling": true,
+      "allowGroupCalling": true,
+      "allowCallForwarding": true,
+      "allowWebPSTNCalling": true,
+      "allowVoicemail": "UserOverride",
+      "allowCallGroups": true,
+      "allowDelegation": true,
+      "allowCallForwardingToUser": true,
+      "allowCallForwardingToPhone": true,
+      "busyOnBusyEnabledType": "Disabled",
+      "musicOnHoldEnabledType": "Enabled",
+      "liveCaptionsEnabledTypeForCalling": "DisabledUserOverride",
+      "autoAnswerEnabledType": "Disabled",
+      "callRecordingExpirationDays": 60
+    }
+  },
+  "clientSettings": {
+    "value": {
+      "restrictedSenderList": [],
+      "allowTBotProactiveMessaging": true,
+      "contentPin": "RequiredOutsideScheduleMeeting",
+      "resourceAccountContentAccess": "NoAccess"
+    }
+  },
+  "updateManagementPolicy": {
+    "value": {
+      "updateDayOfWeek": 1,
+      "updateTimeOfDay": "7/28/2021 6:00:00 PM",
+      "allowPublicPreview": "FollowOfficePreview"
+    }
+  },
+  "teamsAndChannelsPolicy": {
+    "value": {
+      "allowPrivateChannelCreation": true,
+      "allowPrivateTeamDiscovery": true,
+      "allowOrgWideTeamCreation": true,
+      "allowSharedChannelCreation": true,
+      "allowChannelSharingToExternalUser": true,
+      "allowUserToParticipateInExternalSharedChannel": true
+    }
+  },
+  "educationAssignmentsAppPolicy": {
+    "value": {
+      "parentDigestEnabledType": "Disabled",
+      "makeCodeEnabledType": "Disabled",
+      "turnItInEnabledType": "Disabled",
+      "turnItInApiUrl": "",
+      "turnItInApiKey": ""
+    }
+  },
+  "targetingPolicy": {
+    "value": {
+      "manageTagsPermissionMode": "EnabledTeamOwner",
+      "teamOwnersEditWhoCanManageTagsMode": "Enabled",
+      "suggestedPresetTags": [],
+      "customTagsMode": "Enabled",
+      "disallowedSources": []
+    }
+  },
+  "shiftsPolicy": {
+    "value": {
+      "shiftNoticeFrequency": "Never",
+      "shiftNoticeMessageType": "DefaultMessage",
+      "shiftNoticeMessageCustom": "",
+      "accessType": "UnrestrictedAccess_TeamsApp",
+      "accessGracePeriodMinutes": 15
+    }
+  },
+  "feedbackPolicy": {
+    "value": {
+      "receiveSurveysMode": "EnabledUserOverride",
+      "userInitiatedMode": "Enabled"
+    }
+  },
+  "tenantSiteUrl": {
+    "value": {
+      "webUrl": "https://riedusg.sharepoint.com/_layouts/15/sharepoint.aspx"
+    }
+  },
+  "branchSurvivabilityPolicy": {
+    "value": {
+      "branchApplianceFqdns": []
+    }
+  },
+  "teamsMeetingBrandingPolicy": {
+    "value": {
+      "lobbyLogoBrandingImages": [],
+      "lobbyBackgroundBrandingImages": [],
+      "ndiAssuranceSlateImages": [],
+      "meetingBackgroundImages": [],
+      "enableMeetingBackgroundImages": false
+    }
+  }
+}

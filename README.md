@@ -12,3 +12,7 @@ Hold on, I'm finding one.
 ## What is this useraggregatesettings (unblock all).json file?
 It's a non-RI account file that enables all (or at least most features).\
 It has more privileges than RI teacher/staff accounts.
+## Why are there two JSON files for students?
+IT Admin recently relaxed restrictions for student accounts.\
+The old file (before 27 July) contains more restrictions (eg Screen Sharing Disabled).\
+The new file (updated 27 July) contains less restrictions (eg Screen sharing only allows single application sharing).

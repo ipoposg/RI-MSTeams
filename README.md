@@ -6,7 +6,7 @@ Any potentially identifiable information has been stripped off to protect privac
 When Microsoft Teams starts, a ```GET``` request to ```https://teams.microsoft.com/api/mt/apac/beta/users/useraggregatesettings``` will be sent, with a JSON file containing all policies downloaded. The Microsoft Teams app will enable/disable functions based on the settings it received. \
 These files for various accounts have been compiled here for ease.
 ## Are there any sections that are of significant interest?
-Yes! I strongly recommend you to check out the "meetingPolicy" section. You can do a CTRL+F or CMD+F to find it when you click on one of the files.
+Yes! I strongly recommend you to check out the ```meetingPolicy``` section. You can do a CTRL+F or CMD+F to find it when you click on one of the files.
 ## Can I customise my Microsoft Teams with these files (and enable/disable various features)?
 Yes! Download a web inspector and set it to return your edited response (just search how to use one) when ```https://teams.microsoft.com/api/mt/apac/beta/users/useraggregatesettings``` is requested. Feel free to download the pre-existing JSON files here and you may optionally customise it in VS Code or any IDE before putting it in your web inspector.
 ## What about JSON configuration files for teacher/staff accounts?

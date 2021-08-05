@@ -9,8 +9,6 @@ These files for various accounts have been compiled here for ease.
 Yes! I strongly recommend you to check out the ```meetingPolicy``` section. You can do a CTRL+F or CMD+F to find it when you click on one of the files.
 ## Can I customise my Microsoft Teams with these files (and enable/disable various features)?
 Yes! Download a web inspector and set it to return your edited response (just search how to use one) when ```https://teams.microsoft.com/api/mt/apac/beta/users/useraggregatesettings``` is requested. Feel free to download the pre-existing JSON files here and you may optionally customise it in VS Code or any IDE before putting it in your web inspector.
-## What about JSON configuration files for teacher/staff accounts?
-Hold on, I'm finding one.
 ## What is this useraggregatesettings (unblock all).json file?
 It's a non-RI account file that enables all (or at least most features).\
 It has more privileges than RI teacher/staff accounts.

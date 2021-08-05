@@ -1,0 +1,266 @@
+{
+    "tenantSettingsV2": {
+        "value": {
+            "isMicrosoftTeamsEnabled": true,
+            "apps": {
+                "isAppsEnabled": true,
+                "isSideLoadingInteractionEnabled": true,
+                "lobTextColor": "",
+                "lobBackground": "",
+                "lobLogo": "",
+                "lobLogomark": ""
+            },
+            "email": {
+                "isEmailIntoChannelsEnabled": true,
+                "restrictedSenderList": []
+            },
+            "miscellaneous": {
+                "isOrganizationTabEnabled": true,
+                "isTBotProactiveMessagingEnabled": true
+            },
+            "meetups": {
+                "isVideoEnabled": true,
+                "isScreenSharingEnabled": true,
+                "isChannelMeetingEnabled": true,
+                "isAdhocChannelMeetingEnabled": true,
+                "isPrivateMeetingEnabled": true,
+                "isGroupCallingEnabled": true,
+                "isPrivateCallingEnabled": true
+            },
+            "funControl": {
+                "isStickersEnabled": true,
+                "isCustomMemesEnabled": true
+            },
+            "messaging": {
+                "enableOwnersDeleteAllMessages": true,
+                "enableUserEditOwnMessages": true,
+                "enableUserDeleteOwnMessages": true,
+                "enableUserPrivateChat": true
+            },
+            "files": {
+                "isDropboxEnabled": true,
+                "isBoxEnabled": true,
+                "isShareFileEnabled": true,
+                "isGoogleDriveEnabled": true
+            },
+            "licenseCategorySettingsMap": {
+                "educationFaculty": {
+                    "isMicrosoftTeamsEnabled": true,
+                    "meetups": {
+                        "isVideoEnabled": true,
+                        "isScreenSharingEnabled": true,
+                        "isChannelMeetingEnabled": true,
+                        "isAdhocChannelMeetingEnabled": true,
+                        "isPrivateMeetingEnabled": true,
+                        "isGroupCallingEnabled": true,
+                        "isPrivateCallingEnabled": true
+                    },
+                    "funControl": {
+                        "isStickersEnabled": true,
+                        "isCustomMemesEnabled": true
+                    },
+                    "messaging": {
+                        "enableOwnersDeleteAllMessages": true,
+                        "enableUserEditOwnMessages": true,
+                        "enableUserDeleteOwnMessages": true,
+                        "enableUserPrivateChat": true
+                    }
+                },
+                "guest": {
+                    "meetups": {
+                        "isVideoEnabled": true,
+                        "isScreenSharingEnabled": true,
+                        "isAdhocChannelMeetingEnabled": true,
+                        "isGroupCallingEnabled": true,
+                        "isPrivateCallingEnabled": true
+                    },
+                    "funControl": {
+                        "isGiphyEnabled": true,
+                        "giphyRatingType": "Moderate",
+                        "isStickersEnabled": true,
+                        "isCustomMemesEnabled": true
+                    },
+                    "messaging": {
+                        "enableUserEditOwnMessages": true,
+                        "enableUserDeleteOwnMessages": true,
+                        "enableUserPrivateChat": true
+                    }
+                }
+            }
+        }
+    },
+    "userPropertiesSettings": {
+        "value": {
+            "ewsUrl": "https://webmail.ri.edu.sg/EWS/Exchange.asmx",
+            "isMailboxDiscoverable": true,
+            "autodiscoverSettings": {
+                "ews": {
+                    "url": "https://webmail.ri.edu.sg/EWS/Exchange.asmx",
+                    "mailboxStatus": "Discoverable"
+                },
+                "rest": {
+                    "url": "https://webmail.ri.edu.sg/api",
+                    "mailboxStatus": "Discoverable"
+                }
+            },
+            "exchangeRecipientType": "MailUser"
+        }
+    },
+    "userResourcesSettings": {
+        "value": {
+            "licenseSettings": {
+                "isSharePointEnabled": true,
+                "isExchangeEnabled": true,
+                "isPowerBIEnabled": true,
+                "isProjectWorkManagementEnabled": true,
+                "isOfficeEnabled": true,
+                "isYammerEnabled": true,
+                "isOneDriveForBusinessEnabled": true
+            },
+            "isSipEnabled": true,
+            "isSfbCloud": true,
+            "licenseType": "Teacher",
+            "userType": "member"
+        }
+    },
+    "meetingPolicy": {
+        "value": {
+            "allowChannelMeetingScheduling": true,
+            "allowMeetNow": true,
+            "appDesktopSharing": "Desktop",
+            "allowIPVideo": true,
+            "allowEngagementReport": "Disabled",
+            "allowTrackingInReport": "Enabled",
+            "ipAudioMode": "EnabledOutgoingIncoming",
+            "ipVideoMode": "EnabledOutgoingIncoming",
+            "allowPrivateMeetingScheduling": true,
+            "autoAdmittedUsers": "EveryoneInCompanyExcludingGuests",
+            "allowCloudRecording": true,
+            "allowOutlookAddIn": true,
+            "allowPowerPointSharing": true,
+            "allowParticipantGiveRequestControl": true,
+            "allowSharedNotes": true,
+            "allowWhiteboard": true,
+            "mediaBitRateKb": 50000,
+            "screenSharingMode": "EntireScreen",
+            "liveCaptionsEnabledType": "DisabledUserOverride",
+            "allowPrivateMeetNow": true,
+            "meetingChatEnableType": "Enabled",
+            "designatedPresenterRoleMode": "EveryoneUserOverride",
+            "videoFiltersMode": "AllFilters",
+            "preferredMeetingProviderForIslandsMode": "TeamsAndSfb",
+            "recordingStorageMode": "OneDriveForBusiness",
+            "channelRecordingDownload": "Allow",
+            "enrollUserOverride": "Disabled",
+            "roomAttributeUserOverride": "Off",
+            "allowBreakoutRooms": true,
+            "teamsCameraFarEndPTZMode": "Disabled",
+            "allowMeetingReactions": true,
+            "speakerAttributionMode": "EnabledUserOverride",
+            "allowMeetingRegistration": true,
+            "whoCanRegister": "EveryoneInCompany",
+            "allowScreenContentDigitization": "Enabled",
+            "allowMeetingCoach": true,
+            "meetingRecordingExpirationDays": 60,
+            "liveStreamingMode": "Disabled",
+            "roomPeopleNameUserOverride": "Off",
+            "meetingInviteLanguages": "",
+            "allowCarbonSummary": true
+        }
+    },
+    "messagingPolicy": {
+        "value": {
+            "allowOwnerDeleteMessage": true,
+            "allowUserEditMessage": true,
+            "allowUserDeleteMessage": true,
+            "allowUserChat": true,
+            "giphyRatingType": "Strict",
+            "allowGiphyDisplay": true,
+            "allowPasteInternetImage": true,
+            "allowMemes": true,
+            "allowStickers": true,
+            "allowUserTranslation": true,
+            "allowUrlPreviews": true,
+            "readReceiptsEnabledType": "Everyone",
+            "allowImmersiveReader": true,
+            "allowPriorityMessages": true,
+            "audioMessageEnabledType": "ChatsAndChannels",
+            "channelsInChatListEnabledType": "EnabledUserOverride",
+            "allowRemoveUser": true,
+            "allowSmartCompose": true,
+            "allowSmartReply": true,
+            "chatPermissionRole": "Restricted",
+            "allowFluidCollaborate": true
+        }
+    },
+    "callingPolicy": {
+        "value": {
+            "allowPrivateCalling": true,
+            "allowGroupCalling": true,
+            "allowCallForwarding": true,
+            "allowWebPSTNCalling": true,
+            "allowVoicemail": "UserOverride",
+            "allowCallGroups": true,
+            "allowDelegation": true,
+            "allowCallForwardingToUser": true,
+            "allowCallForwardingToPhone": true,
+            "busyOnBusyEnabledType": "Disabled",
+            "musicOnHoldEnabledType": "Enabled",
+            "liveCaptionsEnabledTypeForCalling": "DisabledUserOverride",
+            "autoAnswerEnabledType": "Disabled",
+            "callRecordingExpirationDays": 60
+        }
+    },
+    "clientSettings": {
+        "value": {
+            "restrictedSenderList": [],
+            "allowTBotProactiveMessaging": true,
+            "contentPin": "RequiredOutsideScheduleMeeting",
+            "resourceAccountContentAccess": "NoAccess"
+        }
+    },
+    "updateManagementPolicy": {
+        "value": {
+            "updateDayOfWeek": 1,
+            "updateTimeOfDay": "8/5/2021 6:00:00 PM",
+            "allowPublicPreview": "FollowOfficePreview"
+        }
+    },
+    "educationAssignmentsAppPolicy": {
+        "value": {
+            "parentDigestEnabledType": "Disabled",
+            "makeCodeEnabledType": "Disabled",
+            "turnItInEnabledType": "Disabled",
+            "turnItInApiUrl": "",
+            "turnItInApiKey": ""
+        }
+    },
+    "targetingPolicy": {
+        "value": {
+            "manageTagsPermissionMode": "EnabledTeamOwner",
+            "teamOwnersEditWhoCanManageTagsMode": "Enabled",
+            "suggestedPresetTags": [],
+            "customTagsMode": "Enabled",
+            "disallowedSources": []
+        }
+    },
+    "shiftsPolicy": {
+        "value": {
+            "shiftNoticeFrequency": "Never",
+            "shiftNoticeMessageType": "DefaultMessage",
+            "shiftNoticeMessageCustom": "",
+            "accessType": "UnrestrictedAccess_TeamsApp",
+            "accessGracePeriodMinutes": 15
+        }
+    },
+    "tenantSiteUrl": {
+        "value": {
+            "webUrl": "https://riedusg.sharepoint.com/_layouts/15/sharepoint.aspx"
+        }
+    },
+    "branchSurvivabilityPolicy": {
+        "value": {
+            "branchApplianceFqdns": []
+        }
+    }
+}
